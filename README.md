@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# IELTS Pro - Institute Homepage
+
+A modern, responsive homepage for an IELTS coaching institute built with React and Tailwind CSS.
+
+## 🚀 Setup Instructions
+
+1. **Clone the repository:**
+```bash
+   git clone <your-repo-url>
+   cd ielts-institute
