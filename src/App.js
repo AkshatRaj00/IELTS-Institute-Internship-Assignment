@@ -6,10 +6,11 @@ import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 
 /**
- * Root application component that renders the main page layout.
- * @type {React.FC}
+ * Root application component responsible for rendering the entire page layout.
+ * @component
+ * @returns {JSX.Element} The rendered React component.
  */
-function App() {
+function App(): JSX.Element {
   return (
     <div className="App">
       <Navbar />
