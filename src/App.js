@@ -6,11 +6,12 @@ import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 
 /**
- * Root application component responsible for rendering the entire page layout.
+ * Root application component that renders the complete page layout.
+ * Includes the navigation bar, hero section, feature highlights, testimonials, and footer.
  * @component
- * @returns {JSX.Element} The rendered React component.
+ * @returns {React.ReactElement} The rendered React component representing the entire application.
  */
-function App(): JSX.Element {
+function App(): React.ReactElement {
   return (
     <div className="App">
       <Navbar />
