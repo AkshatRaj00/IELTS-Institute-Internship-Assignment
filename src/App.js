@@ -9,9 +9,9 @@ import Footer from './components/Footer';
  * Root application component that renders the complete page layout.
  * Includes the navigation bar, hero section, feature highlights, testimonials, and footer.
  * @component
- * @returns {React.ReactElement} The rendered React component representing the entire application.
+ * @returns {JSX.Element} The rendered React component representing the entire application.
  */
-function App(): React.ReactElement {
+function App() {
   return (
     <div className="App">
       <Navbar />
