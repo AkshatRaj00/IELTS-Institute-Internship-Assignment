@@ -6,10 +6,19 @@ import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 
 /**
+ * @typedef {Object} AppProps
+ * @property {Object} [props] - Optional props for the App component (currently unused).
+ */
+
+/**
  * Root application component that renders the complete page layout.
- * Includes the navigation bar, hero section, feature highlights, testimonials, and footer.
+ * This component serves as the main container for the application, orchestrating
+ * the composition of all major UI sections including navigation, hero content,
+ * feature highlights, customer testimonials, and the footer.
+ *
  * @component
- * @returns {JSX.Element} The rendered React component representing the entire application.
+ * @param {AppProps} [props] - Optional props for future extensibility.
+ * @returns {React.JSX.Element} The rendered React component representing the entire application.
  */
 function App() {
   return (
