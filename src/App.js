@@ -17,10 +17,10 @@ import Footer from './components/Footer';
  * feature highlights, customer testimonials, and the footer.
  *
  * @component
- * @param {AppProps} [props] - Optional props for future extensibility.
+ * @param {AppProps} [_props] - Optional props for future extensibility.
  * @returns {React.JSX.Element} The rendered React component representing the entire application.
  */
-function App() {
+function App(_props) {
   return (
     <div className="App">
       <Navbar />
