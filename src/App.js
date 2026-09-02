@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 
 /**
  * @typedef {Object} AppProps
- * @property {Object} [props] - Optional props for the App component (currently unused).
+ * // Currently no props are defined; this typedef exists for future extensibility.
  */
 
 /**
