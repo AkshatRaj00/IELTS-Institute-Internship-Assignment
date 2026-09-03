@@ -1,81 +1,49 @@
-# Getting Started with Create React App
+# IELTS Pro — Institute Homepage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive homepage for an IELTS coaching institute, built as a frontend internship assignment focused on UI/UX polish, motion design, and clean component architecture.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The goal of this assignment was to translate a coaching institute's offerings into a homepage that feels premium and trustworthy — not just functional. Beyond layout and responsiveness, the focus was on **interaction design**: smooth scroll-triggered animations, hover states, and visual hierarchy that guides a visitor from "what is this institute" to "how do I enroll."
 
-### `npm start`
+## Highlights
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🎨 **Custom UI/UX** — designed layout and visual flow from scratch (not a template), with attention to spacing, typography, and color contrast for readability
+- ✨ **Scroll & interaction animations** — sections animate in on scroll (fade/slide transitions), buttons and cards have hover micro-interactions for a polished feel
+- 📱 **Fully responsive** — mobile-first layout that adapts cleanly across phone, tablet, and desktop breakpoints
+- 🖼️ **Visual-first sections** — hero banner, course highlights, testimonials, and a clear call-to-action, structured for conversion, not just information dump
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+| Layer | Tech |
+|---|---|
+| Frontend | React |
+| Styling | Tailwind CSS |
+| Animation | CSS transitions / scroll-based reveal animations |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Running Locally
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# IELTS Pro - Institute Homepage
-
-A modern, responsive homepage for an IELTS coaching institute built with React and Tailwind CSS.
-
-## 🚀 Setup Instructions
-
-1. **Clone the repository:**
 ```bash
-   git clone <your-repo-url>
-   cd ielts-institute
+git clone https://github.com/AkshatRaj00/IELTS-Institute-Internship-Assignment.git
+cd IELTS-Institute-Internship-Assignment
+npm install
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page auto-reloads on changes.
+
+### Build for production
+
+```bash
+npm run build
+```
+
+Bundles and minifies the app into the `build/` folder, ready to deploy.
+
+## Project Context
+
+Built as part of a frontend developer internship assignment — evaluated on component structure, responsive design, and UI/UX judgment rather than backend complexity.
+
+## Connect
+
+Built by **Akshat Raj** ([@AkshatRaj00](https://github.com/AkshatRaj00)) — [OnePersonAI](https://onepersonai.in)
