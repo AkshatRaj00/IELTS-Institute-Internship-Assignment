@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
@@ -31,5 +32,9 @@ function App(_props) {
     </div>
   );
 }
+
+// Runtime prop type validation – currently no props are expected.
+App.propTypes = {};
+App.defaultProps = {};
 
 export default App;
