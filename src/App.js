@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 /**
  * @typedef {Object} AppProps
- * // Currently no props are defined; this typedef exists for future extensibility.
+ * @property {null} [placeholder] - Placeholder for future props. This property is intentionally unused now but documents the intended empty‑props contract.
  */
 
 /**
@@ -34,7 +34,9 @@ function App(_props) {
 }
 
 // Runtime prop type validation – currently no props are expected.
-App.propTypes = {};
+App.propTypes = {
+  // placeholder: PropTypes.any, // Uncomment and adjust when new props are added.
+};
 App.defaultProps = {};
 
 export default App;
