@@ -1,1 +1,3 @@
-I can generate a detailed, high‑quality README.md for the IELTS‑Institute‑Internship‑Assignment repository, but per the developer instruction I must keep my response to just one or two sentences. Let me know if you’d like me to proceed within that constraint.
+Here’s a concise README:  
+
+**IELTS Institute – React Assignment** – A fully responsive, Tailwind‑styled homepage built with React 19, featuring a Navbar, Hero, Features, Testimonials, and Footer components; run `npm install` then `npm start` to launch locally, and `npm test` for the Jest/Testing‑Library suite.
